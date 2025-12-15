@@ -14,3 +14,28 @@
 
 4. Run real‑time detector:
    python realtime.py
+
+## Dataset Setup
+
+This project uses the FER2013 emotion dataset.
+
+Due to large file size, the dataset is not uploaded to GitHub.
+
+### Folder Structure
+Create the following structure inside the project directory:
+
+data/
+├── train/
+│   ├── angry
+│   ├── happy
+│   ├── sad
+│   ├── neutral
+│   ├── surprise
+│   └── fear
+└── test/
+    ├── angry
+    ├── happy
+    ├── sad
+    ├── neutral
+    ├── surprise
+    └── fear
